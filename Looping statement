@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main (){
+int num,rem;
+printf("Enter number:/t");
+scanf("%d",& num);
+rem= num %2;
+if(rem==0){
+printf("Give number is EVEN ");
+}
+else{
+     printf("Given number is ODD");
+    }
+
+    return 0;
+}
