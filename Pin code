@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int s_pin,u_pin;
+	s_pin=0705;
+	
+	printf("enter the pin:\t");
+	scanf("%d",&u_pin);
+	
+	if(s_pin==u_pin){
+		printf("CORRECT PIN");
+	}
+	else{
+		printf("INCORRECT PIN");
+	}
+	return 0;
+}
